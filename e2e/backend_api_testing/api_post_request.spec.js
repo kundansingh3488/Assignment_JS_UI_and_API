@@ -6,12 +6,12 @@ test('API POST Request',async ({request}) => {
 //  Send a POST request along with request body & store response in a variable
 const response = await request.post("https://gorest.co.in/public/v2/users", {
         data: {
-        "id": 7538755,
-        "name": "Michel Jection",
-        "email": "michel_jection@testing.test",
-        "gender": "male",
-        "status": "inactive"
-      },
+          "id": 7538685,
+          "name": "Michel jectio",
+          "email": "michel_jection@test.example",
+          "gender": "male",
+          "status": "active"
+          }
   })
 
 // Verify response status code
